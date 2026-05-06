@@ -149,7 +149,7 @@ function App() {
           </h1>
 
           <p className="text-2xl md:text-3xl text-gray-200 mb-8 font-medium animate-fadeInUp">
-            Fullstack Web Developer
+            Software and AI Engineer
           </p>
 
           <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed animate-fadeInUp font-light">
@@ -198,7 +198,7 @@ function App() {
                 Hello, I'm Michael!
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                I'm a passionate fullstack web developer with over one and a
+                I'm a passionate software and AI with over one and a
                 half years of experience creating digital solutions that make a
                 difference. My journey began with curiosity about how websites
                 work, and it has evolved into a deep love for crafting
