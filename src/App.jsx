@@ -364,6 +364,55 @@ function App() {
               </div>
             </div>
 
+            {/* Artificial Intelligence Skills */}
+            <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 p-8 rounded-2xl hover:bg-gray-800/50 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl animate-fadeInUp">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform duration-300">
+                  <svg
+                    className="w-8 h-8 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-semibold text-orange-400 mb-4">
+                  Artificial Intelligence
+                </h3>
+              </div>
+              <div className="space-y-3">
+                {[
+                  "Python",
+                  "Pytorch",
+                  "OpenCV",
+                  "Google AI Studio",
+                  "PostgreSQL",
+                  "MongoDB",
+                  "Redis",
+                  "REST APIs",
+                ].map((skill) => (
+                  <div
+                    key={skill}
+                    className="flex items-center justify-between group"
+                  >
+                    <span className="text-gray-300 group-hover:text-white transition-colors duration-200">
+                      {skill}
+                    </span>
+                    <div className="w-20 h-2 bg-gray-700 rounded-full overflow-hidden">
+                      <div className="w-4/5 h-full bg-gradient-to-r from-orange-400 to-orange-600 rounded-full transition-all duration-1000 group-hover:w-full"></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+
             {/* Tools & Others */}
             <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800/50 p-8 rounded-2xl hover:bg-gray-800/50 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl animate-fadeInRight">
               <div className="text-center mb-6">
