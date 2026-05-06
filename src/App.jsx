@@ -154,7 +154,7 @@ function App() {
 
           <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed animate-fadeInUp font-light">
             Building exceptional digital experiences with cutting-edge
-            technologies. Specializing in modern web applications, cloud
+            technologies. Specializing in modern web applications, AI and cloud
             solutions, and user-centered design.
           </p>
 
@@ -198,15 +198,15 @@ function App() {
                 Hello, I'm Michael!
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                I'm a passionate software and AI with over one and a
+                I'm a passionate software and AI engineer with over one and a
                 half years of experience creating digital solutions that make a
                 difference. My journey began with curiosity about how websites
-                work, and it has evolved into a deep love for crafting
+                work, and it has evolved into a deep love for crafting intelligent solutions and
                 exceptional user experiences.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                I specialize in modern JavaScript frameworks, cloud
-                technologies, and have a keen eye for design. When I'm not
+                I specialize in modern JavaScript frameworks, Python, cloud
+                technologies, AI/ML technologies and have a keen eye for design. When I'm not
                 coding, you'll find me exploring new technologies, contributing
                 to open source projects, or sharing knowledge with the developer
                 community.
@@ -833,7 +833,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-gray-400 hover:text-gray-300 transition-colors duration-300">
-              © 2025 Michael Simiyu. All rights reserved.
+              © 2026 Michael Simiyu. All rights reserved.
             </p>
           </div>
         </div>
